@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;;
+}
+
+#main{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 60px;
+    background: rgba(0, 0, 0, 0.53);
+    border-radius: 10px;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+header > img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+header h1{
+    color: rgb(50, 232, 0);
+}
+
+nav{
+    background-color: rgb(50, 232, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.scooter_div{
+    margin: 30px 0px;
+}
+
+.scooter_name{
+    display: inline-block;
+}
+
+p:before{
+    content: "\21A3";
+}
+
+#charge_gino{
+    background-color: sandybrown;
+    width: 33%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#charge_mike{
+    background-color: rgb(7, 155, 7);
+    height: 20px;
+    width: 53%;
+    border-radius: 5px;
+}
+
+#charge_fede{
+    background-color: brown;
+    height: 20px;
+    width: 15%;
+    border-radius: 5px;
+}
